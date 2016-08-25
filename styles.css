@@ -45,10 +45,12 @@ body {
   padding-right: 20px;
 }
 
+nav select {
+  display: none;
+   color: #F7EDE2;
+}
 
-
-@media only screen and (max-width: 500px) {
-  li {
-    display: block;
-  }
+@media (max-width: 400px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
 }
